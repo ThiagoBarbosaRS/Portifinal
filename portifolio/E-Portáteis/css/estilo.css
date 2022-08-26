@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(0, 139, 109);
+}
+
+.menu-cor{
+    background-color: rgb(0, 61, 70) !important;
+    color: white;
+    
+}
+
+.botao{
+    border-color: rgb(0, 255, 200);
+    color: rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+}
+
+.botao:hover{
+    background-color: rgb(0, 187, 146);
+}
+
+.botao-corpo{
+    border-color: rgb(0, 255, 200);
+    color: rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+    background-color: rgb(0, 61, 70);
+}
+
+.botao-corpo:hover{
+    border-color: rgb(0, 255, 200);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+    background-color: rgb(0, 255, 200);;
+}
+
+
+header div a{
+    color: rgb(255, 255, 255);
+}
+
+header div a:hover{
+    text-shadow: 0px 0px 10px rgb(0, 255, 200);
+    color: rgb(0, 255, 200);
+}
+
+footer{
+    margin-top: 20px;
+}
+
+footer a{
+    color: rgb(0, 255, 200);
+    
+}
+footer a:hover{
+    color: rgb(0, 255, 200);
+    text-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+
+.mapa{
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: rgb(0, 78, 90);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+
+.text-gold{
+    color: rgb(0, 255, 200) !important;
+    text-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+
+.text-gold-titulo{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.box-shadow{
+    box-shadow: 0px 0px 10px rgb(0, 255, 200);
+}
+
+.transparente{
+    background: rgba(39, 39, 39, 0.3);
+    transition: background 2s;
+}
+
+.border-radius{
+    border-radius: 5px;
+}
+
+.middle-y{
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.titulo-secao{
+    text-align: center;
+    border-right: 38px solid #33333399;
+    border-bottom: 2px solid #3333337e;
+    border-radius: 50%;
+}

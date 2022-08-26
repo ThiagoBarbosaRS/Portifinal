@@ -1,0 +1,78 @@
+
+form fieldset{
+    text-align: center;
+    margin: 30px;
+}
+
+form input, select{
+    border-color: #ffffff;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+    color: #000000;
+    border-radius: 1px 3px 1px 3px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 200);
+}
+
+form button{
+    background: linear-gradient(to bottom, rgb(0, 255, 200), rgb(0, 255, 170));
+    padding: 1px;
+    width: 180px;
+    
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(0, 255, 200);
+    margin: 10px;
+
+    font-size: 23px;
+    border: 0px;
+    border-bottom: 2px solid #ff000070;
+    border-radius: 1px 3px 1px 3px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 200);
+}
+
+form button:hover{
+    box-shadow: 0px 0px 20px 0px rgb(0, 255, 200);
+}
+
+
+form fieldset label textarea{
+    border-radius: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgb(0, 255, 200);
+}
+
+.margem{
+    padding: 80px;
+}
+
+@media (max-width: 767px){
+    #suporte{
+        margin: 1;
+        padding: 1;
+        width: 100%
+    }
+}
+
+@media (max-width: 767px){
+    #suporte-fora{
+        margin: 1;
+        padding: 1;
+    }
+}
+
+@media (max-width: 767px){
+    #suporte-fora-1{
+        margin: 0;
+        padding: 7;
+        padding-right: 11;
+    }
+}
+
+@media (max-width: 767px){
+    #suporte-fora-2{
+        margin: 0px;
+        padding: 0px;
+    }
+}

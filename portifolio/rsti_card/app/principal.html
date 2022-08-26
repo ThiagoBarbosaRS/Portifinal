@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome Ícones -->
+    <script src="https://kit.fontawesome.com/d030f93cec.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>App Principal / RSTI CARD - Aplicativo para gestão de finanças pessoais</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-sack-dollar"></i> RSTI Card
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="principal.html"><i class="fa-solid fa-gauge"></i> Principal <span class="sr-only">(Página atual)</span></a>
+                    <a class="nav-item nav-link active" href="carteira_list.html"><i class="fa-solid fa-wallet"></i> Carteiras</a>
+                    <a class="nav-item nav-link active" href="#"><i class="fa-solid fa-dollar"></i> Lançamentos</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="#" class="nav-item nav-link active">
+                        <i class="fa-solid fa-user"></i> Nome Usuário
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+             <section class="text-center mt-4">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <div class="card bg-primary text-white">
+                            <div class="card-header">
+                                <h5 class="card-title">Saldo Total</h5>
+                            </div>
+                            <div class="card-body">
+                                <h3>R$ 4.030,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <div class="card border-primary">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="card-title">Carteira</h5>
+                            </div>
+                            <div class="card-body text-primary">
+                                <h3>R$ 30,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <div class="card border-primary">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="card-title">Bradesco</h5>
+                            </div>
+                            <div class="card-body text-primary">
+                                <h3>R$ 3.000,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <div class="card border-primary">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="card-title">Nubank</h5>
+                            </div>
+                            <div class="card-body text-primary">
+                                <h3>R$ 1.000,00</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <section class="text-center mt-4">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <a href="#" class="btn btn-success w-100">
+                            <i class="fa-solid fa-dollar fa-3x"></i>
+                            <br>
+                            Fazer Lançamento
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <a href="#" class="btn btn-outline-primary w-100">
+                            <i class="fa-solid fa-search fa-3x"></i>
+                            <br>
+                            Buscar Lançamentos
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <a href="#" class="btn btn-outline-primary w-100">
+                            <i class="fa-solid fa-wallet fa-3x"></i>
+                            <br>
+                            Adicionar Carteira
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 mt-3">
+                        <a href="carteira_list.html" class="btn btn-outline-primary w-100">
+                            <i class="fa-solid fa-search fa-3x"></i>
+                            <br>
+                            Buscar Carteiras
+                        </a>
+                    </div>
+                </div>
+             </section>
+        </div>
+    </main>
+    <footer class="mt-4 bg-light text-center text-secondary fixed-bottom">
+        <p>Desenvolvido por Robertson E.S. - &copy; 2022 - RSTI</p>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
